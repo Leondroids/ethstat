@@ -1,0 +1,161 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif !important;
+    padding-top: 80px;
+}
+
+.navbar::before, .navbar::after {
+    display: none;
+}
+
+.navbar {
+    background-color: #FFFFFF;
+    height: 64px;
+    width: 100%;
+    border-bottom: 1px solid rgba(40, 40, 200, 0.1);
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 24px;
+}
+
+.navbar a {
+    font-size: 14px;
+    padding: 0;
+    margin: 0 0 0 32px !important;
+}
+
+.navbar p{
+    font-weight: bold;
+    font-size: 16px;
+    color: #220000;
+}
+.navbar-brand {
+    height: auto;
+}
+
+.logo img {
+    width: 40px;
+    height: 40px;
+    margin-top: 4px;
+    margin-left: -32px;
+}
+
+
+
+.backgroundarea {
+    background: #192332;
+    height: 160px;
+    width: 100%;
+    position: fixed;
+    top: 56px;
+    z-index: 1;
+}
+
+.bottomarea {
+    position: relative;
+    height: 72px;
+    border-top: 1px solid #ededed;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    margin-top: 24px;
+}
+
+.button {
+    display: inline-block;
+    background: #00A0FF;
+    border-radius: 4px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    box-shadow: 0 8px 12px -8px rgba(0, 160, 255, 0.8);
+    width: auto;
+    height: 32px;
+    color: #FFF;
+    line-height: 32px;
+    text-align: center;
+    cursor: pointer;
+    position: relative;
+    padding: 0 16px;
+}
+
+.button:hover {
+    background: #0096F0;
+}
+
+
+input[type=checkbox], input[type=radio] {
+    position: relative !important;;
+    margin: 0 !important;
+}
+
+.labelFilter {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+
+label {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.labelTable {
+    margin-top: 32px;
+    font-weight: 300;
+    font-size: 14px;
+    letter-spacing: 0.75px;
+    text-transform: uppercase;
+    color: #64739B;
+}
+
+table td.left {
+    text-align: left;
+    color: #220000;
+    font-weight: bold;
+    width: 160px;
+}
+
+table .right {
+    text-align: right;
+    color: #192332;
+    margin-left: 16px;
+    padding-left: 64px;
+    font-family: Menlo;
+}
+
+tr {
+    height: 32px;
+}
+
+span:hover {
+    color: #00a0ff;
+}
+
+#myTabs {
+    padding: 0px;
+    background: none;
+    border-width: 0px;
+    margin-top: 16px;
+    height: auto;
+}
+#myTabs .ui-tabs-nav {
+    padding-left: 0px;
+    background: transparent;
+    border-width: 0px 0px 1px 0px;
+    -moz-border-radius: 0px;
+    -webkit-border-radius: 0px;
+    border-radius: 0px;
+}
+.ui-tabs-nav li a:focus { outline: none; }
+#myTabs {border: none}
+#myTabs .ui-tabs-panel {
+    padding:32px;
+    padding-left: 16px;
+    border-width: 0px 1px 1px 1px;
+    height: auto;
+}
